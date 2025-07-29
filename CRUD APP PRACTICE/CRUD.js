@@ -22,7 +22,7 @@
     emailerr.innerHTML = "";
     phoneerr.innerHTML = "";
 
-     isvalid = true;
+     let isvalid = true;
 
     // Regex
     let nameRegex = /^[a-zA-Z\s]+$/;
@@ -76,8 +76,6 @@
         return false;
     } else if (!isvalid === false){
         alert("Form Submitted Succesfully")
-        // document.getElementById("userModal").innerHTML = ""
-
     }
 
 
@@ -108,6 +106,7 @@ document.getElementById("phone").value = "";
 
   }
 
+
   function displayUsers() {
     const allUsers = JSON.parse(localStorage.getItem("users")) || [];
 
@@ -131,15 +130,9 @@ document.getElementById("phone").value = "";
 
   }
 
-function edituser(){
 
-let allusers = JSON.parse(localStorage.getItem("users")) || []
+// Function To Update Data
 
-allusers[index].Name = "Updated Name"
 
-localStorage.setItem("users",JSON.stringify(allusers))
-
-}
-
-  window.onload = displayUsers;
+  window.onload = displayUsers();
 
