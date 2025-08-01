@@ -8,18 +8,21 @@ function submitForm(event) {
   let gender = document.getElementById("gender").value.trim();
   let email = document.getElementById("email").value.trim();
   let phone = document.getElementById("phone").value.trim();
+ let password = document.getElementById("password").value.trim();
 
   let nameerr = document.getElementById("name-error");
   let ageerr = document.getElementById("age-error");
   let gendererr = document.getElementById("gender-error");
   let emailerr = document.getElementById("email-error");
   let phoneerr = document.getElementById("phone-error");
+  let passerr = document.getElementById("password-error")
 
   nameerr.innerHTML = "";
   ageerr.innerHTML = "";
   gendererr.innerHTML = "";
   emailerr.innerHTML = "";
   phoneerr.innerHTML = "";
+  passerr.innerHTML = "";
 
   let isvalid = true;
 
@@ -28,6 +31,7 @@ function submitForm(event) {
   let genderRegex = /^(male|female)$/i;
   let emailRegex = /^[a-zA-Z0-9._]+@[a-zA-Z0-9]+\.(com)$/;
   let phoneRegex = /^[6-9][0-9]{9}$/;
+  let passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
   // Validations
   if (name === "") {
@@ -67,6 +71,14 @@ function submitForm(event) {
     isvalid = false;
   } else if (!phoneRegex.test(phone)) {
     phoneerr.innerHTML = "Enter a valid 10-digit phone number starting with 6-9";
+    isvalid = false;
+  }
+
+    if (password === "") {
+    passerr.innerHTML = "Please enter the Password";
+    isvalid = false;
+  } else if (!passwordRegex.test(password)) {
+    passerr.innerHTML = "Enter a valid Password";
     isvalid = false;
   }
 
@@ -125,6 +137,7 @@ function displayUsers() {
           <td>${user.Gender}</td>
           <td>${user.Email}</td>
           <td>${user.Phone}</td>
+         
 <td><button onclick="edituser(${index})">Edit</button></td>
 <td><button onclick="deleteUser(${index})">Delete</button></td>
 
