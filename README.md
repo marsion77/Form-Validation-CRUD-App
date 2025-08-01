@@ -41,4 +41,4 @@ This is a responsive web application that allows users to **Create, Read, Update
 
 ## 🔗 Live Demo
 
-[🌐 View Live on Git](https://marsion77.github.io/Form-Validation-CRUD-App/) 
+[🌐 View Live on Git](https://snazzy-cassata-c187d9.netlify.app/) 
