@@ -138,8 +138,8 @@ function displayUsers() {
           <td>${user.Email}</td>
           <td>${user.Phone}</td>
          
-<td><button onclick="edituser(${index})">Edit</button></td>
-<td><button onclick="deleteUser(${index})">Delete</button></td>
+<td><button class = "ibtn" onclick="edituser(${index})">Edit</button></td>
+<td><button class = "ibtn" onclick="deleteUser(${index})">Delete</button></td>
 
         </tr>
       `;

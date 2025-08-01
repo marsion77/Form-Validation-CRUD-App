@@ -61,3 +61,12 @@ justify-content: center;
 span{
 color: red;
 }
+
+.ibtn{
+    border: none;
+    border-radius:10px;
+    height: 30px;
+    width: 80pX;
+    text-align: center;
+    box-shadow:3px 3px 15px #cccbcb;
+}
