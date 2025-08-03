@@ -42,7 +42,7 @@ This is a responsive web application that allows users to **Create, Read, Update
 ## ScreenShot
 <p align="center">
   <img src="https://github.com/user-attachments/assets/71ffc6ed-0068-4521-bbb1-38fbae4345e5" height="300" width="40%" alt="Screenshot 1" />
-  <img src="https://github.com/user-attachments/assets/303412fc-cec2-4ac7-b79b-5bdad64f69e5" height="300" width="40%" alt="Screenshot 2" />
+  <img src="https://github.com/user-attachments/assets/12144739-65e2-4467-8ca0-77b42643b4b7" height="350" width="40%" alt="Screenshot 1"/>
 </p>
 
 
