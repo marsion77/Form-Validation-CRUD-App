@@ -40,8 +40,12 @@ This is a responsive web application that allows users to **Create, Read, Update
 ---
 
 ## ScreenShot
-<img width="799" height="412" alt="image" src="https://github.com/user-attachments/assets/b7ed7a33-ae76-42be-a31f-1ec9503fb462" />
-<img width="276" height="460" alt="image" src="https://github.com/user-attachments/assets/3e468ffd-60e6-4c65-bbcb-32724f368ee9" />
+<p align="center">
+  <img src="<img height="500" alt="image" src="https://github.com/user-attachments/assets/71ffc6ed-0068-4521-bbb1-38fbae4345e5" />
+" width="45%" />
+  <img src="<img height="500" alt="image" src="https://github.com/user-attachments/assets/303412fc-cec2-4ac7-b79b-5bdad64f69e5" />
+" width="45%" />
+</p>
 
 
 
